@@ -1,0 +1,29 @@
+.filas{
+    height: 15rem;
+    
+}
+
+.filas2{
+    height: 15rem;
+    
+}
+
+.foto{
+    height: 13rem;
+    width: 21rem;
+    
+    display: inline-block;
+    margin-left: 1rem;
+}
+.foto img{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    height: 3rem;
+}
+
+#foto2{
+    height: 15rem;
+    width: 18rem;
+}
