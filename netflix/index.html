@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    
-    <header class="p-3 bg-transparent text-black">
+
+
+    <header class="p-3 bg-black text-white">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-black text-decoration-none">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="#" class="nav-link "><img id="logo" src="img/logo.png" alt=""></a></li>
-          <li><a href="#" class="nav-link px-2 text-black">Features</a></li>
-          <li><a href="#" class="nav-link px-2 text-black">Pricing</a></li>
-          <li><a href="#" class="nav-link px-2 text-black">FAQs</a></li>
-          <li><a href="#" class="nav-link px-2 text-black">About</a></li>
+          <li><a href="#" class="nav-link px-2 text-white" style="margin-top: 0.75rem;">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-white" style="margin-top: 0.75rem;">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 text-white" style="margin-top: 0.75rem;">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 text-white" style="margin-top: 0.75rem;">About</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -36,17 +38,26 @@
       </div>
     </div>
   </header>
-  
 
+    <div id="serie1" class="d-none mt-3 alert bg-black img-mask-gradient alert-info">Breaking Bad: Una serie sobre un profesor que...
+    <img id="fondo" src="https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABUZRetY0NwWkIBQ-9QF0PLIDcuUCPKgno_8riE_In9tHRgqqTTSG-vGiP5ctXrVMY4PESkV5-x1LE_MGn32QtUZfnoNR4Hx9GoRI.jpg?r=9fa">
+    </div>
+    <div id="serie2" class="d-none mt-3 alert img-mask-gradient alert-info">severance
+        <img id="fondo" src="https://media.admagazine.com/photos/67e4357947d2ba455dd6af9f/16:9/w_2560%2Cc_limit/Severance_201_F00168F.jpg">
+        </div><div class="texto"><p>severance</p></div>
+    <div id="serie3" class="d-none mt-3 alert img-mask-gradient alert-info">Steins gate
+    <img id="fondo" src="https://alfabetajuega.com/hero/2023/03/steins-gate-pasos-en-el-tiempo.jpg?width=1200"></div>
+    <div id="serie4" class="d-none mt-3 alert img-mask-gradient alert-info">Breaking Bad: Una serie sobre un profesor que...</div>
+    <div id="serie5" class="d-none mt-3 alert img-mask-gradient alert-info">Breaking Bad: Una serie sobre un profesor que...</div>
 
-    <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-         <div class="d-flex">
-        <img src="https://static.wikia.nocookie.net/breakingbad/images/7/78/Logo_breaking_bad.png/revision/latest?cb=20180801024750&path-prefix=es" class="d-block w-25" alt="..." style="margin-right: 10px;">
-        <img src="https://cdn.avpasion.com/wp-content/uploads/2024/07/severance-serie-temporada-2-1.jpg" class="d-block w-25" alt="..." style="margin-right: 10px;">
-        <img src="https://i.blogs.es/0f50cb/steinsgate-portada-xataka/1366_2000.png" class="d-block w-25" alt="..." style="margin-right: 10px;">
-        <img src="https://m.media-amazon.com/images/I/81QE2bYDgWL._AC_UF894,1000_QL80_.jpg" class="d-block w-25" alt="..." style="margin-right: 10px;">
+    <div id="carouselExample" class="carousel slide bg-black">
+  <div class="carousel-inner bg-black " style="padding-bottom: 6rem;">
+    <div class="carousel-item active ">
+         <div class="d-flex ">
+        <img src="https://static.wikia.nocookie.net/breakingbad/images/7/78/Logo_breaking_bad.png/revision/latest?cb=20180801024750&path-prefix=es" class="d-block w-25 clickable-img" data-target="#serie1" alt="..." style="margin-right: 10px;">
+        <img src="https://cdn.avpasion.com/wp-content/uploads/2024/07/severance-serie-temporada-2-1.jpg" class="d-block w-25 clickable-img" data-target="#serie2" alt="..." style="margin-right: 10px;">
+        <img src="https://i.blogs.es/0f50cb/steinsgate-portada-xataka/1366_2000.png" class="d-block w-25 clickable-img" data-target="#serie3" alt="..." style="margin-right: 10px;">
+        <img src="https://m.media-amazon.com/images/I/81QE2bYDgWL._AC_UF894,1000_QL80_.jpg" class="d-block w-25 clickable-img" data-target="#serie4" alt="..." style="margin-right: 10px;">
       </div>
 
     </div>
@@ -70,9 +81,9 @@
   </button>
 
 </div>
-<br><br>
+
     <div id="carouselExample2" class="carousel slide">
-  <div class="carousel-inner">
+  <div class="carousel-inner bg-black">
     <div class="carousel-item active">
          <div class="d-flex">
         <img src="https://fotos.perfil.com/2022/10/11/trim/1280/720/better-call-saul-1433864.jpeg" class="d-block w-25" alt="..." style="margin-right: 10px;">
@@ -101,6 +112,34 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    
+    <script>
+        $(document).ready(function () {
+   $('.clickable-img').on('click', function () {
+     const target = $(this).data('target');
+     const $targetDiv = $(target);
+
+     if ($targetDiv.hasClass('d-none')) {
+       // Oculta todos los divs
+       $('[id^="serie"]').addClass('d-none');
+
+       // Muestra el div correspondiente
+       $targetDiv.removeClass('d-none');
+
+       // Si no tiene botón de cerrar, lo agrega
+       if ($targetDiv.find('.close-btn').length === 0) {
+         $targetDiv.prepend('<button class="btn-close close-btn" aria-label="Cerrar"></button>');
+       }
+     } else {
+       // Oculta si ya está visible
+       $targetDiv.addClass('d-none');
+     }
+   });
+
+   // Cierra el div al hacer clic en el botón de cerrar
+   $(document).on('click', '.close-btn', function () {
+     $(this).closest('.alert').addClass('d-none');
+   });
+ });
+    </script>
 </body>
 </html>
