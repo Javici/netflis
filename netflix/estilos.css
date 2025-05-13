@@ -1,6 +1,6 @@
 html, body {
   background-color: black;
-  color: white; /* Para que el texto se vea sobre el fondo negro */
+  color: white; 
 }
 .filas{
     height: 15rem;
@@ -62,4 +62,132 @@ top: 10%;}
 p{
 position: fixed;
 z-index: 1;
+}
+
+.bg-image1{
+  background-image: url('https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABUZRetY0NwWkIBQ-9QF0PLIDcuUCPKgno_8riE_In9tHRgqqTTSG-vGiP5ctXrVMY4PESkV5-x1LE_MGn32QtUZfnoNR4Hx9GoRI.jpg?r=9fa');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image2{
+  background-image: url('https://media.admagazine.com/photos/67e4357947d2ba455dd6af9f/16:9/w_2560%2Cc_limit/Severance_201_F00168F.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image3{
+  background-image: url('https://alfabetajuega.com/hero/2023/03/steins-gate-pasos-en-el-tiempo.jpg?width=1200');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image4{
+  background-image: url('https://i.blogs.es/977149/one-piece-portada-netflix/1366_2000.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image5{
+  background-image: url('https://animenew.com.br/wp-content/uploads/2023/06/Frieren-Beyond-Journeys-Novos-dubladores-revelados-1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image6{
+  background-image: url('https://story-structure.org/wp-content/uploads/2025/01/Arcane_Ep7-1-1024x576.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image7{
+  background-image: url('https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2021/10/ODDTAXI-Feature.png?fit=2048%2C1448&ssl=1');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image8{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image9{
+  background-image: url('https://images6.alphacoders.com/820/820435.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image10{
+  background-image: url('https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/88fbe563405097ee6eeeccd9d46195e2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image11{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image12{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image13{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image14{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image15{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+.bg-image16{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+
+
+.textoFoto{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  border-radius: 5px;
+}
+.contenedor{
+  background-color: black;
 }
