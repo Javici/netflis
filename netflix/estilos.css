@@ -1,40 +1,19 @@
 html, body {
   background-color: black;
-  color: white; 
-}
-.filas{
-    height: 15rem;
-    
-}
 
-.filas2{
-    height: 15rem;
-    
 }
-
-.foto{
-    height: 13rem;
-    width: 21rem;
-    
-    display: inline-block;
-    margin-left: 1rem;
+@font-face {
+  font-family: titulo;
+  src: url("fonts/AlfaSlabOne-Regular.ttf");
 }
-.foto img{
-    height: 100%;
-    width: 100%;
+h2{
+font-family: titulo;
+color: black;
 }
 #logo{
     height: 3rem;
 }
 
-#foto2{
-    height: 15rem;
-    width: 18rem;
-}
-
-.informacion{
-
-}
 .alert {
   position: relative;
 }
@@ -48,16 +27,8 @@ html, body {
 #fondo{
 width: 100%;
 }
-.img-mask-gradient {
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-  -webkit-mask-size: 100% 150%;
-  -webkit-mask-repeat: no-repeat;
 
-}
-.texto{
-z-index: 1;
-position: fixed;
-top: 10%;}
+
 
 p{
 position: fixed;
@@ -70,6 +41,7 @@ z-index: 1;
   background-position: center;
   height: 80vh;
   position: relative;
+
 }
 .bg-image2{
   background-image: url('https://media.admagazine.com/photos/67e4357947d2ba455dd6af9f/16:9/w_2560%2Cc_limit/Severance_201_F00168F.jpg');
@@ -100,7 +72,7 @@ z-index: 1;
   position: relative;
 }
 .bg-image6{
-  background-image: url('https://story-structure.org/wp-content/uploads/2025/01/Arcane_Ep7-1-1024x576.jpg');
+  background-image: url('https://images2.alphacoders.com/119/1192178.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -135,35 +107,35 @@ z-index: 1;
   position: relative;
 }
 .bg-image11{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-image: url('https://i0.wp.com/getinthemecha.home.blog/wp-content/uploads/2024/02/sonny-boy-featured-image.png?fit=1200%2C675&ssl=1');
   background-size: cover;
   background-position: center;
   height: 80vh;
   position: relative;
 }
 .bg-image12{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-image: url('https://i0.wp.com/guetogeek.com.br/wp-content/uploads/2024/06/Dungeon-Meshi-Delicious-in-Dungeon-Temporada-2-Season-2-Capa.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
   position: relative;
 }
 .bg-image13{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-image: url('https://blob.diariodelistmo.com/images/2024/04/12/crop-w869-h489-gto--focus-0.68-0.13-495-370.png12-focus-0.68-0.13-495-370.png');
   background-size: cover;
   background-position: center;
   height: 80vh;
   position: relative;
 }
 .bg-image14{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-image: url('https://images.justwatch.com/backdrop/227990515/s640/ousama-ranking');
   background-size: cover;
   background-position: center;
   height: 80vh;
   position: relative;
 }
 .bg-image15{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-image: url('https://i0.wp.com/getinthemecha.home.blog/wp-content/uploads/2024/02/sonny-boy-featured-image.png?fit=1200%2C675&ssl=1');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -182,12 +154,51 @@ z-index: 1;
   position: absolute;
   bottom: 10px;
   left: 10px;
-  margin: 0;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.5); 
-  color: white;
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
+  z-index: 2;
+  color:black;
+
+    text-shadow:
+      -1px -1px 0 white,
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
 }
 .contenedor{
   background-color: black;
 }
+  .img-hover-zoom {
+    transition: transform 0.3s ease;
+  }
+
+  .img-hover-zoom:hover {
+    transform: scale(1.05);
+  }
+
+    .rating {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      font-size: 2rem;
+    }
+
+    .star {
+      color: lightgray;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .star:hover,
+    .star:hover ~ .star {
+      color: lightgray; /* Evita que las siguientes estrellas se iluminen */
+    }
+
+    .rating:hover .star {
+      color: gold;
+    }
+
+    .rating .star:hover,
+    .rating .star:hover ~ .star {
+      color: lightgray;
+    }
