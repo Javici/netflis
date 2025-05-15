@@ -11,7 +11,7 @@ font-family: titulo;
 color: black;
 }
 #logo{
-    height: 3rem;
+    height: 5rem;
 }
 
 .alert {
@@ -23,12 +23,12 @@ color: black;
   top: 5px;
   right: 10px;
   z-index: 10;
+  color: white;
+  border: 2px solid white;
 }
 #fondo{
 width: 100%;
 }
-
-
 
 p{
 position: fixed;
@@ -135,14 +135,14 @@ z-index: 1;
   position: relative;
 }
 .bg-image15{
-  background-image: url('https://i0.wp.com/getinthemecha.home.blog/wp-content/uploads/2024/02/sonny-boy-featured-image.png?fit=1200%2C675&ssl=1');
+  background-image: url('https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABf7jjKD5BLJdwb2Su1rHXYa8sOfOkHb_aHAbN6f4rfN4QasiPv5Dvfa60yciXm1aNiLY2zztxr7HmRzNZgw4Q8Df-t9wshidp-zw.jpg?r=eb2');
   background-size: cover;
   background-position: center;
   height: 80vh;
   position: relative;
 }
 .bg-image16{
-  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/121dc0e9-f1e2-420a-87ff-eaaeaa0f2d17/Going+Merry+2');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQN2dvft--Wj0XiNjB6iq-F4aq6gzHy7WUg&s');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -159,7 +159,7 @@ z-index: 1;
   z-index: 2;
   color:black;
 
-    text-shadow:
+  text-shadow:
       -1px -1px 0 white,
        1px -1px 0 white,
       -1px  1px 0 white,
